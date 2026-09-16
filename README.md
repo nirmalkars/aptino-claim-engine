@@ -619,21 +619,21 @@ Potential future improvements include:
 
 The Streamlit frontend is available at:
 
-https://your-app-name.streamlit.app
+https://aptino-claim-engine-3na5meb3ig4jy7nbrr6gbw.streamlit.app/
 
 ### Backend API
 
 The FastAPI backend is available at:
 
-https://your-service-name.onrender.com
+https://activated-considers-newspaper-reward.trycloudflare.com
 
 ### API Documentation
 
-https://your-service-name.onrender.com/docs
+https://activated-considers-newspaper-reward.trycloudflare.com/docs
 
 ### Health Check
 
-https://your-service-name.onrender.com/health
+https://activated-considers-newspaper-reward.trycloudflare.com/health
 
 ## Architecture and Design Note
 
