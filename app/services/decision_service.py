@@ -6,11 +6,11 @@ from app.schemas.decision import ClaimDecision
 def build_claim_decision(state: dict[str, Any]) -> ClaimDecision:
     decision_analysis = state.get("decision_analysis", {})
 
-    print("DEBUG decision_analysis:")
-    print(decision_analysis)
+    # print("DEBUG decision_analysis:")
+    # print(decision_analysis)
 
-    print("DEBUG decision citations:")
-    print(decision_analysis.get("citations", []))
+    # print("DEBUG decision citations:")
+    # print(decision_analysis.get("citations", []))
 
     validation = state.get(
         "validation",
