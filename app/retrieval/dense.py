@@ -13,7 +13,7 @@ class DenseRetriever:
     def __init__(
         self,
         chunks_path: str | None = None,
-        model_name: str = "paraphrase-MiniLM-L3-v2",
+        model_name: str = "all-MiniLM-L6-v2",
     ):
         if chunks_path is None:
             chunks_path = (

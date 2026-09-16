@@ -44,7 +44,7 @@ class HybridRetriever:
     def search(
     self,
     query: str,
-    top_k: int = 3,
+    top_k: int = 5,
     dense_k: int | None = None,
     sparse_k: int | None = None,
     final_k: int | None = None,

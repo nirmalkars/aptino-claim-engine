@@ -605,7 +605,6 @@ Potential future improvements include:
 - FastAPI
 - Streamlit
 - Pydantic
-- PyMuPDF
 - SentenceTransformers
 - FAISS
 - BM25
