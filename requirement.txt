@@ -9,4 +9,8 @@ faiss-cpu
 ollama
 streamlit
 numpy
+<<<<<<< HEAD
 requests
+=======
+requests
+>>>>>>> ee867185bf0482c3ff1bf112121ed598e47b06d3
