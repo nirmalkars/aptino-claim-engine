@@ -208,7 +208,7 @@ aptino-claim-engine/
 │   ├── additional_test_cases.json
 │   └── processed/
 │       └── policy_chunks.json
-├── evaluation/
+├── evalution/
 │   ├── __init__.py
 │   ├── evaluate.py
 │   ├── evaluation_results.json
@@ -394,7 +394,7 @@ The evaluation includes:
 Run the evaluation from the project root:
 
 ```bash
-python evaluation/evaluate.py
+python evalution/evaluate.py
 ```
 
 If your folder is still named `evalution`, run:
@@ -406,7 +406,7 @@ python evalution/evaluate.py
 The evaluation results are saved to:
 
 ```text
-evaluation/evaluation_results.json
+evalution/evaluation_results.json
 ```
 
 The evaluation calculates:
