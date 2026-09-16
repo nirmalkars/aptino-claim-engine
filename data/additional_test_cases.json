@@ -1,0 +1,177 @@
+[
+  {
+    "case_id": "ADDITIONAL-001",
+    "policy_id": "CSC-Individual-Health-2017-2018",
+    "policy_start_date": "2016-01-01",
+    "claim_date": "2017-06-15",
+    "sum_insured_inr": 500000,
+    "continuous_coverage_months": 24,
+    "patient": {
+      "age": 35,
+      "gender": "Male",
+      "pre_existing_disease": false
+    },
+    "hospital": {
+      "name": "Sample General Hospital",
+      "network": true
+    },
+    "treatment": {
+      "type": "Inpatient hospitalization",
+      "description": "Treatment for an acute illness",
+      "hospitalized": true
+    },
+    "expenses_inr": {
+      "hospital_bill": 85000,
+      "total_claimed": 85000
+    },
+    "documents": [
+      "discharge summary",
+      "hospital bill",
+      "medical reports",
+      "prescriptions"
+    ],
+    "task": "Assess whether this inpatient hospitalization claim is admissible under the policy.",
+    "prior_policy": {},
+    "evidence_context": {},
+    "expense_timing": {},
+    "billing_context": {}
+  },
+  {
+    "case_id": "ADDITIONAL-002",
+    "policy_id": "CSC-Individual-Health-2017-2018",
+    "policy_start_date": "2017-01-01",
+    "claim_date": "2017-08-10",
+    "sum_insured_inr": 300000,
+    "continuous_coverage_months": 7,
+    "patient": {
+      "age": 52,
+      "gender": "Female",
+      "pre_existing_disease": true,
+      "condition": "Diabetes diagnosed before policy commencement"
+    },
+    "hospital": {
+      "name": "Sample Medical Center",
+      "network": true
+    },
+    "treatment": {
+      "type": "Inpatient hospitalization",
+      "description": "Treatment related to diabetes",
+      "hospitalized": true
+    },
+    "expenses_inr": {
+      "hospital_bill": 120000,
+      "total_claimed": 120000
+    },
+    "documents": [
+      "hospital bill",
+      "medical report"
+    ],
+    "task": "Assess whether this claim involving a pre-existing disease is admissible under the policy.",
+    "prior_policy": {},
+    "evidence_context": {},
+    "expense_timing": {},
+    "billing_context": {}
+  },
+  {
+    "case_id": "ADDITIONAL-003",
+    "policy_id": "CSC-Individual-Health-2017-2018",
+    "policy_start_date": "2017-01-01",
+    "claim_date": "2017-09-20",
+    "sum_insured_inr": 400000,
+    "continuous_coverage_months": 9,
+    "patient": {
+      "age": 29,
+      "gender": "Female",
+      "pre_existing_disease": false
+    },
+    "hospital": {
+      "name": "Sample Women's Hospital",
+      "network": true
+    },
+    "treatment": {
+      "type": "Maternity",
+      "description": "Hospitalization for childbirth",
+      "hospitalized": true
+    },
+    "expenses_inr": {
+      "hospital_bill": 95000,
+      "total_claimed": 95000
+    },
+    "documents": [
+      "hospital bill",
+      "discharge summary",
+      "medical reports"
+    ],
+    "task": "Assess whether this maternity-related claim is admissible under the policy.",
+    "prior_policy": {},
+    "evidence_context": {},
+    "expense_timing": {},
+    "billing_context": {}
+  },
+  {
+    "case_id": "ADDITIONAL-004",
+    "policy_id": "CSC-Individual-Health-2017-2018",
+    "policy_start_date": "2016-05-01",
+    "claim_date": "2017-05-12",
+    "sum_insured_inr": 250000,
+    "continuous_coverage_months": 12,
+    "patient": {
+      "age": 40,
+      "gender": "Male",
+      "pre_existing_disease": false
+    },
+    "hospital": {
+      "name": "Sample Cosmetic Clinic",
+      "network": false
+    },
+    "treatment": {
+      "type": "Cosmetic treatment",
+      "description": "Elective cosmetic procedure",
+      "hospitalized": false
+    },
+    "expenses_inr": {
+      "hospital_bill": 60000,
+      "total_claimed": 60000
+    },
+    "documents": [
+      "invoice",
+      "doctor consultation note"
+    ],
+    "task": "Assess whether this cosmetic treatment claim is admissible under the policy.",
+    "prior_policy": {},
+    "evidence_context": {},
+    "expense_timing": {},
+    "billing_context": {}
+  },
+  {
+    "case_id": "ADDITIONAL-005",
+    "policy_id": "CSC-Individual-Health-2017-2018",
+    "policy_start_date": "2016-03-01",
+    "claim_date": "2017-04-15",
+    "sum_insured_inr": 200000,
+    "continuous_coverage_months": 13,
+    "patient": {
+      "age": 45,
+      "gender": "Male",
+      "pre_existing_disease": false
+    },
+    "hospital": {
+      "name": "Sample Hospital",
+      "network": true
+    },
+    "treatment": {
+      "type": "Inpatient hospitalization",
+      "description": "Hospitalization for an unspecified condition",
+      "hospitalized": true
+    },
+    "expenses_inr": {
+      "total_claimed": 70000
+    },
+    "documents": [],
+    "task": "Assess whether this claim can be decided based on the currently available evidence.",
+    "prior_policy": {},
+    "evidence_context": {},
+    "expense_timing": {},
+    "billing_context": {}
+  }
+]

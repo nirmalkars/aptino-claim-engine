@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "public_case_count": 12,
+    "additional_case_count": 5,
+    "total_case_count": 17
+  },
+  "summary": {
+    "total_cases": 17,
+    "decision_counts": {
+      "ADMISSIBLE_WITH_LIMITS": 6,
+      "NEEDS_REVIEW": 11
+    },
+    "needs_review_cases": 11,
+    "error_cases": 0,
+    "cases_with_retrieval": 17,
+    "retrieval_coverage": 1.0,
+    "cases_with_citations": 17,
+    "citation_coverage": 1.0,
+    "cases_with_valid_page_citations": 17,
+    "page_citation_coverage": 1.0,
+    "total_retrieved_chunks": 136,
+    "average_retrieved_chunks_per_case": 8.0,
+    "total_citations": 136,
+    "average_citations_per_case": 8.0,
+    "passed_validation": 17,
+    "validation_pass_rate": 1.0,
+    "average_confidence": 0.5353
+  },
+  "public_summary": {
+    "total_cases": 12,
+    "decision_counts": {
+      "ADMISSIBLE_WITH_LIMITS": 4,
+      "NEEDS_REVIEW": 8
+    },
+    "needs_review_cases": 8,
+    "error_cases": 0,
+    "cases_with_retrieval": 12,
+    "retrieval_coverage": 1.0,
+    "cases_with_citations": 12,
+    "citation_coverage": 1.0,
+    "cases_with_valid_page_citations": 12,
+    "page_citation_coverage": 1.0,
+    "total_retrieved_chunks": 96,
+    "average_retrieved_chunks_per_case": 8.0,
+    "total_citations": 96,
+    "average_citations_per_case": 8.0,
+    "passed_validation": 12,
+    "validation_pass_rate": 1.0,
+    "average_confidence": 0.5458
+  },
+  "additional_summary": {
+    "total_cases": 5,
+    "decision_counts": {
+      "ADMISSIBLE_WITH_LIMITS": 2,
+      "NEEDS_REVIEW": 3
+    },
+    "needs_review_cases": 3,
+    "error_cases": 0,
+    "cases_with_retrieval": 5,
+    "retrieval_coverage": 1.0,
+    "cases_with_citations": 5,
+    "citation_coverage": 1.0,
+    "cases_with_valid_page_citations": 5,
+    "page_citation_coverage": 1.0,
+    "total_retrieved_chunks": 40,
+    "average_retrieved_chunks_per_case": 8.0,
+    "total_citations": 40,
+    "average_citations_per_case": 8.0,
+    "passed_validation": 5,
+    "validation_pass_rate": 1.0,
+    "average_confidence": 0.51
+  },
+  "results": [
+    {
+      "case_id": "PUB-001",
+      "source": "public",
+      "decision": "ADMISSIBLE_WITH_LIMITS",
+      "confidence": 0.65,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-002",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-003",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.45,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": [
+        "Confirmation of policy commencement date, continuous coverage, and waiting-period eligibility"
+      ]
+    },
+    {
+      "case_id": "PUB-004",
+      "source": "public",
+      "decision": "ADMISSIBLE_WITH_LIMITS",
+      "confidence": 0.65,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-005",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-006",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-007",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-008",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-009",
+      "source": "public",
+      "decision": "ADMISSIBLE_WITH_LIMITS",
+      "confidence": 0.65,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-010",
+      "source": "public",
+      "decision": "ADMISSIBLE_WITH_LIMITS",
+      "confidence": 0.65,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-011",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "PUB-012",
+      "source": "public",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.5,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "ADDITIONAL-001",
+      "source": "additional",
+      "decision": "ADMISSIBLE_WITH_LIMITS",
+      "confidence": 0.65,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "ADDITIONAL-002",
+      "source": "additional",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.45,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": [
+        "Confirmation of policy commencement date, continuous coverage, and waiting-period eligibility"
+      ]
+    },
+    {
+      "case_id": "ADDITIONAL-003",
+      "source": "additional",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.45,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": [
+        "Confirmation of policy commencement date, continuous coverage, and waiting-period eligibility"
+      ]
+    },
+    {
+      "case_id": "ADDITIONAL-004",
+      "source": "additional",
+      "decision": "ADMISSIBLE_WITH_LIMITS",
+      "confidence": 0.65,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": []
+    },
+    {
+      "case_id": "ADDITIONAL-005",
+      "source": "additional",
+      "decision": "NEEDS_REVIEW",
+      "confidence": 0.35,
+      "citation_count": 8,
+      "valid_page_citation_count": 8,
+      "retrieval_count": 8,
+      "validation_status": "PASS",
+      "missing_evidence": [
+        "supporting documents"
+      ]
+    }
+  ]
+}
