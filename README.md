@@ -383,26 +383,6 @@ The frontend displays:
 - Agent workflow trace
 - Manual-review information
 
-## Running Tests
-
-Run schema tests:
-
-```bash
-python scripts/test_schemas.py
-```
-
-Run retrieval tests:
-
-```bash
-python scripts/test_retrieval.py
-```
-
-Run workflow tests:
-
-```bash
-python scripts/test_workflow.py
-```
-
 ## Evaluation
 
 The evaluation includes:
