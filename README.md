@@ -614,6 +614,28 @@ Potential future improvements include:
 - Multi-Agent Workflow
 - JSON-based Evaluation
 
+## Live Deployment
+
+### Frontend
+
+The Streamlit frontend is available at:
+
+https://your-app-name.streamlit.app
+
+### Backend API
+
+The FastAPI backend is available at:
+
+https://your-service-name.onrender.com
+
+### API Documentation
+
+https://your-service-name.onrender.com/docs
+
+### Health Check
+
+https://your-service-name.onrender.com/health
+
 ## Architecture and Design Note
 
 A detailed 1–2 page architecture and design note is available here:
