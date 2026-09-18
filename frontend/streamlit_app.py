@@ -5,13 +5,13 @@ import requests
 import streamlit as st
 
 
-API_URL = "http://127.0.0.1:8000"
+# API_URL = "http://127.0.0.1:8000"
 import os
 
-# API_URL = st.secrets.get(
-#     "API_URL",
-#     os.getenv("API_URL", "http://127.0.0.1:8000")
-# ).rstrip("/")
+API_URL = st.secrets.get(
+    "API_URL",
+    os.getenv("API_URL", "http://127.0.0.1:8000")
+).rstrip("/")
 
 st.write("Backend URL:", API_URL)
 
